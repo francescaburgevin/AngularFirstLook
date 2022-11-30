@@ -10,6 +10,7 @@ import { CardBtnComponent } from './components/card-btn/card-btn.component';
 // PrimeNG
 import {CardModule} from 'primeng/card';
 import {ButtonModule} from 'primeng/button';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {ButtonModule} from 'primeng/button';
     CardListComponent,
     CardComponent,
     CardBtnComponent,
+    BannerComponent,
 
   ],
   imports: [

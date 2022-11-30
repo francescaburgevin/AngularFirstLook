@@ -8,7 +8,7 @@ import { Card } from 'src/app/models/card.model';
 })
 export class CardComponent implements OnInit {
 
-  @Input() cardChild: Card = new Card("", "", "", false);
+  @Input() cardChild: Card = new Card("", "", "", "", false);
 
   constructor() { }
 
